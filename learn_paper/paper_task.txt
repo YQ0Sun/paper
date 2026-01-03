@@ -1,0 +1,67 @@
+一、基础与里程碑（CNN 与特征学习）
+AlexNet (2012) – ImageNet Classification with Deep Convolutional Neural Networks
+ZFNet (2013) – Visualizing and Understanding Convolutional Networks
+VGGNet (2014) – Very Deep Convolutional Networks for Large-Scale Image Recognition
+GoogLeNet / Inception (2014) – Going Deeper with Convolutions
+ResNet (2015) – Deep Residual Learning for Image Recognition
+DenseNet (2017) – Densely Connected Convolutional Networks
+SqueezeNet (2016) – SqueezeNet: AlexNet-level accuracy with 50x fewer parameters
+MobileNetV1 (2017) – MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications
+EfficientNet (2019) – EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks
+Vision Transformer (ViT, 2020) – An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
+
+二、目标检测（Object Detection）
+R-CNN (2014) – Rich feature hierarchies for accurate object detection and semantic segmentation
+Fast R-CNN (2015) – Fast R-CNN
+Faster R-CNN (2015) – Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks
+YOLOv1 (2016) – You Only Look Once: Unified, Real-Time Object Detection
+SSD (2016) – SSD: Single Shot MultiBox Detector
+YOLOv3 (2018) – YOLOv3: An Incremental Improvement
+RetinaNet (2017) – Focal Loss for Dense Object Detection
+DETR (2020) – End-to-End Object Detection with Transformers
+Swin Transformer (2021) – Swin Transformer: Hierarchical Vision Transformer using Shifted Windows
+YOLOv7 / YOLOv8 (2022–2023) – YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors（注：YOLOv8 无正式论文，但工程影响巨大）
+
+三、语义/实例分割（Segmentation）
+FCN (2015) – Fully Convolutional Networks for Semantic Segmentation
+U-Net (2015) – U-Net: Convolutional Networks for Biomedical Image Segmentation
+Mask R-CNN (2017) – Mask R-CNN
+DeepLabv3+ (2018) – Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation
+PSPNet (2017) – Pyramid Scene Parsing Network
+
+四、生成模型与图像合成
+GAN (2014) – Generative Adversarial Nets
+DCGAN (2015) – Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks
+StyleGAN (2019) – A Style-Based Generator Architecture for Generative Adversarial Networks
+StyleGAN2 (2020) – Analyzing and Improving the Image Quality of StyleGAN
+Diffusion Models (2020) – Denoising Diffusion Probabilistic Models (DDPM)
+Stable Diffusion (2022) – High-Resolution Image Synthesis with Latent Diffusion Models
+
+五、自监督与对比学习
+SimCLR (2020) – A Simple Framework for Contrastive Learning of Visual Representations
+MoCo v1/v2 (2019/2020) – Momentum Contrast for Unsupervised Visual Representation Learning
+BYOL (2020) – Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning
+DINO (2021) – Emerging Properties in Self-Supervised Vision Transformers
+六、Transformer 与 Vision-Language 模型
+CLIP (2021) – Learning Transferable Visual Models From Natural Language Supervision
+ALIGN (2021) – Scaling Up Visual and Textual Representations with Contrastive Learning
+BLIP / BLIP-2 (2022/2023) – Bootstrapping Language-Image Pre-training
+Segment Anything (SAM, 2023) – Segment Anything
+DINOv2 (2023) – DINOv2: Learning Robust Visual Features without Supervision
+
+七、3D 视觉与多模态
+PointNet (2017) – PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation
+NeRF (2020) – NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis
+Instant-NGP / Instant NeRF (2022) – Instant Neural Graphics Primitives
+3D Gaussian Splatting (2023) – 3D Gaussian Splatting for Real-Time Radiance Field Rendering
+
+八、模型压缩、部署与效率
+Knowledge Distillation (2015) – Distilling the Knowledge in a Neural Network
+Quantization (2016) – Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference（Google 的 Quantization 论文）
+NNCF / TensorRT 优化实践（虽无单一论文，但部署必备）
+
+九、新兴方向（2023–2025）
+MAE (2021) – Masked Autoencoders Are Scalable Vision Learners
+ConvNeXt (2022) – A ConvNet for the 2020s
+InternImage (2023) – InternImage: Exploring Large-Scale Vision Foundation Models with Deformable Convolutions
+（或替换为 Grounding DINO (2023) – Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection，视应用方向而定）
